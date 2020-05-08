@@ -4,6 +4,8 @@
   <img width=800 src="./assets/splash.png">
 </p>
 
+<h2 align=center>Demo do site: https://gabrielnbds.github.io/airbnb-clone/ </h2>  
+
 ## Sobre o desafio
 
 O desafio foi criar uma página similar a do Airbnb através do consumo da API de quartos, usando Javascript Vanilla e Flexbox para organizá-los em cards na tela, a partir deste banco de dados: https://api.sheety.co/30b6e400-9023-4a15-8e6c-16aa4e3b1e72.
@@ -22,6 +24,3 @@ Tela com cards contendo:
 <p align=center>
   <img width=800 src="./assets/myairbnb.png">
 </p>
-
-
-
