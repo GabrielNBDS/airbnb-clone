@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  padding: 0 80px;
+  margin-bottom: 50px;
+  border-bottom: 2px solid rgba(211, 211, 211, 0.5);
+}
+
+header svg {
+  height: 64px;
+  width: 120px;
+  padding: 15px 0;
+}
+
+header .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+}
+
+header .search input, header .search a {
+  text-align: center;
+  outline: none;
+}
+
+header .search input:nth-of-type(1) {
+  width: 165px;
+  height: 45px;
+  border: 2px solid rgba(211, 211, 211, 0.5);
+  border-right: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+header .search input:nth-of-type(2) {
+  width: 70px;
+  height: 45px;
+  border: 2px solid rgba(211, 211, 211, 0.5);
+}
+
+header .search input:nth-of-type(3) {
+  width: 210px;
+  height: 45px;
+  border: 2px solid rgba(211, 211, 211, 0.5);
+  border-left: none;
+}
+
+header .search a {
+  width: 100px;
+  height: 45px;
+  padding-top: 10px;
+  color: #FF385C;
+  font-weight: bold;
+  border: 2px solid rgba(211, 211, 211, 0.5);
+  border-left: none;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+header .options {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .options svg {
+  width: 15px;
+  margin-top: 15px;
+}
+
+header .options button:nth-of-type(1) {
+  height: 45px;
+  padding: 0 20px;
+  font-weight: bold;
+  border: 0px;
+  background: transparent;
+  border-radius: 8px;
+}
+
+header .options button:nth-of-type(1):hover {
+  background-color: rgba(211, 211, 211, 0.15);
+}
+
+header .options button:nth-of-type(2) {
+  height: 45px;
+  padding: 0 10px;
+  border-radius: 8px;
+  background: transparent;
+  font-weight: bold;
+  border: 2px solid rgba(211, 211, 211, 0.5);
+  transition: background-color border 0.2s;
+}
+
+header .options button:nth-of-type(2):hover {
+  background-color: rgba(211, 211, 211, 0.15);
+  border: 2px solid transparent;
+}
+
+.info {
+  width: 100%;
+  padding: 0 80px;
+}
+
+.info p {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.info strong {
+  font-size: 32px;
+}
+
+.info .filters {
+  height: 70px;
+  padding-top: 20px;
+}
+
+.info .filters a {
+  font-weight: 300;
+  font-size: 14px;
+  padding: 5px 10px;
+  border: 1px solid lightgray;
+  border-radius: 30px;
+}
+
+.info .filters a:hover {
+  border: 1px solid black;
+}
+
+.properties {
+  width: 100%;
+  padding: 0 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.properties .property {
+  -webkit-box-flex: 1;
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.properties .property img {
+  width: 250px;
+  height: 180px;
+  border-radius: 2px;
+}
+
+.properties .property .type {
+  font-weight: 300;
+}
